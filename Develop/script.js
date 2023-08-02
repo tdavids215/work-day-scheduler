@@ -4,7 +4,7 @@
 
 
 // allows for addition of past present or future class in the function
-var currentTime = dayjs().format('H');
+var currentTime = 13;
 console.log(currentTime);
 var saveButton = $('.saveBtn');
 var calendarInput = $('.description');
@@ -40,12 +40,11 @@ $(function () {
  
       if (timeBlockTime > currentTime) {
         $(this).addClass('future');
-      } else if (timeBlockTime === currentTime) {
+      } else if (timeBlockTime == currentTime) {
         $(this).addClass('present');
       } else {
         $(this).addClass('past')
       }
-    // }
   })
   }  ;
 
