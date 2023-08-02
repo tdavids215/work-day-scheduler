@@ -4,7 +4,7 @@
 
 
 // allows for addition of past present or future class in the function
-var currentTime = 13;
+var currentTime = dayjs().format('H');
 console.log(currentTime);
 var saveButton = $('.saveBtn');
 var calendarInput = $('.description');
