@@ -1,8 +1,8 @@
 
 
 
-// allows for addition of past present or future class in the function
-var currentTime = dayjs().format('H');
+
+var currentTime = dayjs().format('HH');
 console.log(currentTime);
 var saveButton = $('.saveBtn');
 var calendarInput = $('.description');
